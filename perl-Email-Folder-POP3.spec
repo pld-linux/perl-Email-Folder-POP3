@@ -18,11 +18,11 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Email::Folder) >= 0.84
-BuildRequires:	perl(Email::FolderType::Net) >= 1.02
+BuildRequires:	perl-Email-Folder >= 0.84
+BuildRequires:	perl-Email-FolderType-Net >= 1.02
 BuildRequires:	perl(Net::POP3) >= 2.28
 BuildRequires:	perl(Test::More) >= 0.47
-BuildRequires:	perl(URI) >= 1.35
+BuildRequires:	perl-URI >= 1.35
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
