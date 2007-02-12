@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Folder-POP3
 Summary:	Email::Folder::POP3 - Email::Folder access to POP3 folders
-Summary(pl):	Email::Folder::POP3 - dostêp do katalogów POP3 z poziomu Email::Folder
+Summary(pl.UTF-8):   Email::Folder::POP3 - dostÄ™p do katalogÃ³w POP3 z poziomu Email::Folder
 Name:		perl-Email-Folder-POP3
 Version:	1.01
 Release:	1
@@ -31,8 +31,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This software adds POP3 functionality to Email::Folder. Its interface
 is identical to the other Email::Folder::Reader subclasses.
 
-%description -l pl
-Ten modu³ rozszerza Email::Folder o funkcjonalno¶æ POP3. Interfejs
+%description -l pl.UTF-8
+Ten moduÅ‚ rozszerza Email::Folder o funkcjonalnoÅ›Ä‡ POP3. Interfejs
 jest identyczny z innymi podklasami Email::Folder::Reader.
 
 %prep
