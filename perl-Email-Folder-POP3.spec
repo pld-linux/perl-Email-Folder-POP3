@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Folder-POP3
 Summary:	Email::Folder::POP3 - Email::Folder access to POP3 folders
-Summary(pl.UTF-8):   Email::Folder::POP3 - dostęp do katalogów POP3 z poziomu Email::Folder
+Summary(pl.UTF-8):	Email::Folder::POP3 - dostęp do katalogów POP3 z poziomu Email::Folder
 Name:		perl-Email-Folder-POP3
 Version:	1.01
 Release:	1
