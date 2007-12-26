@@ -8,13 +8,14 @@
 Summary:	Email::Folder::POP3 - Email::Folder access to POP3 folders
 Summary(pl.UTF-8):	Email::Folder::POP3 - dostęp do katalogów POP3 z poziomu Email::Folder
 Name:		perl-Email-Folder-POP3
-Version:	1.01
+Version:	1.013
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7671212bb0f13506890fe7f9ef3f3fe4
+Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	cdd6956824c72350be95ce6ca648e027
+URL:		http://search.cpan.org/dist/Email-Folder-POP3/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
