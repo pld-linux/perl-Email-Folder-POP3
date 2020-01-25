@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Folder-POP3
 Summary:	Email::Folder::POP3 - Email::Folder access to POP3 folders
